@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"gopkg.in/square/go-jose.v2"
 	"net/http"
+
+	"gopkg.in/go-jose/go-jose.v2"
 )
 
 type JWKSSource interface {
