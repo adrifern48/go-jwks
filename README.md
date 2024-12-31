@@ -14,7 +14,7 @@ go get github.com/s12v/go-jwks@v0.2.1
 
 ## Dependencies
 
- * `github.com/square/go-jose` - JWT library
+ * `github.com/go-jose/go-jose` - JWT library
  * `github.com/patrickmn/go-cache` - default in-memory cache
 
 ## Example
@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/s12v/go-jwks"
-	"github.com/square/go-jose"
+	"gopkg.in/go-jose/go-jose.v2"
 )
 
 func main() {

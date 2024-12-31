@@ -2,7 +2,8 @@ package jwks
 
 import (
 	"context"
-	"gopkg.in/square/go-jose.v2"
+
+	"gopkg.in/go-jose/go-jose.v2"
 )
 
 type jWKSClientMock struct {
